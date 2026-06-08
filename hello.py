@@ -1,9 +1,15 @@
-def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n - 1)
-
-number = 5
-result = factorial(number)
-print(f"the factorial of (number) is (result).")
+def home():
+    return """
+    <h1>🚀 DevOps CI/CD Pipeline Project</h1>
+     <h3>👨‍💻 Developed By: Akshay</h3>
+    <p>This application is deployed using Jenkins, Docker, and AWS EC2.</p>
+    <p>Tools used:</p>
+    <ul>
+        <li>Jenkins - CI/CD Pipeline</li>
+        <li>Docker - Containerization</li>
+        <li>SonarQube - Code Quality Analysis</li>
+        <li>Trivy - Security Scanning</li>
+        <li>AWS EC2 - Deployment Server</li>
+    </ul>
+    <h3>✅ Application is running successfully!</h3>
+    """
