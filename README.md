@@ -1,2 +1,2 @@
-# hello_test
-setting up git
+# python-app-cicd
+python-app-cicd
